@@ -24,11 +24,4 @@ else:
     # pprint(questions)
     now_weather(questions)
 
-    more = input(
-        "Do you want see more about your town weather ?  Y/N  ").upper()
 
-    if(more == "Y"):
-        link = "https://www.google.com/search?client=opera-gx&q=pogoda+rzeszow&sourceid=opera&ie=UTF-8&oe=UTF-8"
-        webbrowser.open_new_tab(link)
-    else:
-        print("if not then see you later")
